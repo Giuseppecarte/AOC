@@ -2,7 +2,7 @@
 
 
 items = []
-with open(r'C:\Users\PC\Documents\Development\AOC\2022\Python\3\Input.txt','r') as f:
+with open(r'Input.txt','r') as f:
     for line in f:
         items.append(line.strip())
 

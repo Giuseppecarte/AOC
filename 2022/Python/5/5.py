@@ -1,9 +1,9 @@
 import numpy as np
 
-Instructions = open(r'C:\Users\PC\Documents\Development\AOC\2022\Python\5\Input.txt','r')
+Instructions = open(r'Input.txt','r')
 instructions = [line.strip() for line in Instructions.readlines()[10:]]
 
-Matrix = open(r'C:\Users\PC\Documents\Development\AOC\2022\Python\5\Input.txt','r')
+Matrix = open(r'Input.txt','r')
 M = [[_ for _ in line] for line in Matrix.readlines()[:8] ]
 
 

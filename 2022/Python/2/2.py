@@ -37,7 +37,7 @@ def outcome(elf, me):
             return 'Lost'
 
 # Play given the mappings of the encrypted data 
-with open(r'C:\Users\PC\Documents\Development\AOC\2022\Python\2\Input.txt','r') as f: 
+with open(r'Input.txt','r') as f: 
     total_results = []
     for line in f:
         moves = line.split()

@@ -2,7 +2,7 @@ import os
 
 
 all_pairs = []
-with open(r'C:\Users\PC\Documents\Development\AOC\2022\Python\4\Input.txt','r') as f:
+with open(r'Input.txt','r') as f:
     for line in f:
         all_pairs.append(line.strip().split(','))
 
